@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Libs/MovieRank.Libs.csproj": {}
+  },
+  "projects": {
+    "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Contract/MovieRank.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Contract/MovieRank.Contract.csproj",
+        "projectName": "MovieRank.Contract",
+        "projectPath": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Contract/MovieRank.Contract.csproj",
+        "packagesPath": "/home/tfletcher/.nuget/packages/",
+        "outputPath": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Contract/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tfletcher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Libs/MovieRank.Libs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Libs/MovieRank.Libs.csproj",
+        "projectName": "MovieRank.Libs",
+        "projectPath": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Libs/MovieRank.Libs.csproj",
+        "packagesPath": "/home/tfletcher/.nuget/packages/",
+        "outputPath": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Libs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tfletcher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Contract/MovieRank.Contract.csproj": {
+                "projectPath": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Contract/MovieRank.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.5.4.37, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

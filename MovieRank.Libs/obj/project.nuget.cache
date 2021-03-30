@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/kBFmQDlEAFMBAR2ClIar8eqVaMAALn5FnlnV9aVKFYu7IgDdVWSKWPf8LwBZJzoniR3zYXtDcn0qXxh45tx5g==",
+  "success": true,
+  "projectFilePath": "/home/tfletcher/Git/Development/MovieRank/MovieRank/MovieRank.Libs/MovieRank.Libs.csproj",
+  "expectedPackageFiles": [
+    "/home/tfletcher/.nuget/packages/awssdk.core/3.5.3.8/awssdk.core.3.5.3.8.nupkg.sha512",
+    "/home/tfletcher/.nuget/packages/awssdk.dynamodbv2/3.5.4.37/awssdk.dynamodbv2.3.5.4.37.nupkg.sha512"
+  ],
+  "logs": []
+}
